@@ -1,0 +1,80 @@
+#root {
+  min-width: 80vw;
+  min-height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: gray;
+  padding-top: 10vh;
+  font-family: "Times New Roman", Times, serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  min-height: 200px;
+  margin: 0 auto;
+  background-color: bisque;
+  padding: 0 3%;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+form label {
+  margin-top: 5%;
+}
+form textarea {
+  max-width: 98.5%;
+  max-height: 400px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+form input {
+  font-size: 18px;
+  border: 2px solid rgba(128, 128, 128, 0.652);
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+form button {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 80px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid rgb(60, 126, 212);
+  background-color: rgb(81, 156, 255);
+  color: white;
+}
+form button:hover {
+  cursor: pointer;
+  background-color: rgb(24, 100, 199);
+}
+
+#questionDisplay {
+  display: flex;
+  flex-direction: column;
+  min-width: 70vw;
+  width: 70vw;
+  background-color: bisque;
+  border-radius: 25px;
+  border: 2px solid black;
+  margin: 5vh auto 0 auto;
+}
+#questionDisplay .displayRow {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  min-height: 3vh;
+  font-size: 18px;
+}
+#questionDisplay .displayRow .nameCol {
+  width: 30%;
+  height: 18px;
+  margin: auto 0;
+}
+#questionDisplay .displayRow .questionCol {
+  width: 70%;
+  height: 18px;
+  margin: auto 0;
+  border-left: 2px solid black;
+}/*# sourceMappingURL=App.css.map */
