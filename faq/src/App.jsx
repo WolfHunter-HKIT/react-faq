@@ -125,7 +125,7 @@ function App() {
 					placeholder='Enter email'
 					value={emailInput}
 					onChange={handleEmailInput}
-					// required
+					required
 				/>
 				<label htmlFor='question'>Question*</label>
 				<textarea
